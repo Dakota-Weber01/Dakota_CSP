@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B30B2541FC35FEA00533C01 /* Yeetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30B2531FC35FEA00533C01 /* Yeetable.swift */; };
+		4B30B2561FC3606B00533C01 /* Borker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30B2551FC3606B00533C01 /* Borker.swift */; };
 		4BFACFF31FA256E40012358E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFACFF21FA256E40012358E /* ViewController.swift */; };
 		4BFACFF61FA256E40012358E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFACFF41FA256E40012358E /* Main.storyboard */; };
 		4BFACFF81FA256E40012358E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFACFF71FA256E40012358E /* Assets.xcassets */; };
@@ -23,9 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B30B2531FC35FEA00533C01 /* Yeetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yeetable.swift; sourceTree = "<group>"; };
+		4B30B2551FC3606B00533C01 /* Borker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borker.swift; sourceTree = "<group>"; };
 		4BFACFED1FA256E40012358E /* Dakota_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dakota_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFACFF21FA256E40012358E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4BFACFF51FA256E40012358E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BFACFF51FA256E40012358E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = ../Controller/AlgorithmsController.swift; sourceTree = "<group>"; };
 		4BFACFF71FA256E40012358E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BFACFFA1FA256E40012358E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BFACFFC1FA256E40012358E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 		4BFAD0041FA257100012358E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4B30B2531FC35FEA00533C01 /* Yeetable.swift */,
+				4B30B2551FC3606B00533C01 /* Borker.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,9 +200,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BFAD0271FA25D6A0012358E /* InternetController.swift in Sources */,
+				4B30B2561FC3606B00533C01 /* Borker.swift in Sources */,
 				4BFAD0291FA25D7B0012358E /* GlobalController.swift in Sources */,
 				4BFAD0211FA25D340012358E /* DataController.swift in Sources */,
 				4BFAD0251FA25D5A0012358E /* ProgrammingController.swift in Sources */,
+				4B30B2541FC35FEA00533C01 /* Yeetable.swift in Sources */,
 				4BFAD0231FA25D480012358E /* AlgorithmsController.swift in Sources */,
 				4BFAD01D1FA25D050012358E /* AbstractionController.swift in Sources */,
 				4BFAD01F1FA25D1D0012358E /* CreativityController.swift in Sources */,
