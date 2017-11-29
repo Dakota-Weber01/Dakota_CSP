@@ -20,7 +20,7 @@
 		4BFAD0211FA25D340012358E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0201FA25D340012358E /* DataController.swift */; };
 		4BFAD0231FA25D480012358E /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0221FA25D480012358E /* AlgorithmsController.swift */; };
 		4BFAD0251FA25D5A0012358E /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0241FA25D5A0012358E /* ProgrammingController.swift */; };
-		4BFAD0271FA25D6A0012358E /* InternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0261FA25D6A0012358E /* InternetController.swift */; };
+		4BFAD0271FA25D6A0012358E /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0261FA25D6A0012358E /* InternetMasterViewController.swift */; };
 		4BFAD0291FA25D7B0012358E /* GlobalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0281FA25D7B0012358E /* GlobalController.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		4BFAD0201FA25D340012358E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		4BFAD0221FA25D480012358E /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
 		4BFAD0241FA25D5A0012358E /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
-		4BFAD0261FA25D6A0012358E /* InternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetController.swift; sourceTree = "<group>"; };
+		4BFAD0261FA25D6A0012358E /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		4BFAD0281FA25D7B0012358E /* GlobalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +92,7 @@
 				4BFAD0201FA25D340012358E /* DataController.swift */,
 				4BFAD0221FA25D480012358E /* AlgorithmsController.swift */,
 				4BFAD0241FA25D5A0012358E /* ProgrammingController.swift */,
-				4BFAD0261FA25D6A0012358E /* InternetController.swift */,
+				4BFAD0261FA25D6A0012358E /* InternetMasterViewController.swift */,
 				4BFAD0281FA25D7B0012358E /* GlobalController.swift */,
 			);
 			path = Controller;
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BFAD0271FA25D6A0012358E /* InternetController.swift in Sources */,
+				4BFAD0271FA25D6A0012358E /* InternetMasterViewController.swift in Sources */,
 				4B30B2561FC3606B00533C01 /* Borker.swift in Sources */,
 				4BFAD0291FA25D7B0012358E /* GlobalController.swift in Sources */,
 				4BFAD0211FA25D340012358E /* DataController.swift in Sources */,
