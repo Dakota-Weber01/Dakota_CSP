@@ -33,6 +33,7 @@
 		4B30B2551FC3606B00533C01 /* Borker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borker.swift; sourceTree = "<group>"; };
 		4B89E5F61FCF39A00006CC6A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		4B89E5F91FCF3B9F0006CC6A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		4BD0FAE01FD9C6BB001D4D7E /* tiny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiny.png; path = ../../../../../Desktop/tiny.png; sourceTree = "<group>"; };
 		4BFACFED1FA256E40012358E /* Dakota_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dakota_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFACFF21FA256E40012358E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BFACFF51FA256E40012358E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = ../Controller/AlgorithmsController.swift; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				4BFAD0081FA258640012358E /* Default-568h@2x.png */,
+				4BD0FAE01FD9C6BB001D4D7E /* tiny.png */,
 				4BFACFFC1FA256E40012358E /* Info.plist */,
 				4BFACFF71FA256E40012358E /* Assets.xcassets */,
 			);

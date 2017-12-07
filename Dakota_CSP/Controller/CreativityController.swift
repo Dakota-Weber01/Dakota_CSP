@@ -16,7 +16,7 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
     private lazy var artSelection : [UIImage?] =
     {
         return [
-            UIImage(named: ""),
+            UIImage(named: "tiny.png"),
             UIImage(named: ""),
             UIImage(named: ""),
             UIImage(named: ""),
@@ -26,8 +26,35 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
             UIImage(named: "")
                ]
     }()
-    var largePhotoIdexPath: IndexPath?
-    
+    var largePhotoIndexPath: IndexPath?
+    {
+        didSet
+        {
+            var indexPaths = [IndexPath]()
+            if let largePhotoIndexPath = largePhotoIndexPath
+            {
+                indexPaths.append(largePhotoIndexPath)
+            }
+            if let oldValue = oldValue
+            {
+                indexPaths.append(oldValue)
+            }
+            collectionView?.performBatchUpdates(
+            {
+                self.collectionView?.reloaditems(at: indexPaths)
+            })
+            {
+                completed in
+                
+                if let largePhotodexPath = self.largePhotoIndexPath
+                {
+                    self.collectionView?.scrollToItem(at: largePhotoIndexPath,
+                                                      at: .centeredVertically,
+                                                      animated: true)
+                }
+            }
+        }
+    }
     public override func viewDidLoad()
     {
         super.viewDidLoad()
