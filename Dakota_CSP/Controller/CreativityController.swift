@@ -41,12 +41,12 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
             }
             collectionView?.performBatchUpdates(
             {
-                self.collectionView?.reloaditems(at: IndexPath)
+                self.collectionView?.reloadItems(at: indexPaths)
             })
             {
                 completed in
                 
-                if let largePhotodexPath = self.largePhotoIndexPath
+                if let largePhotoIndexPath = self.largePhotoIndexPath
                 {
                     self.collectionView?.scrollToItem(at: largePhotoIndexPath,
                                                       at: .centeredVertically,
