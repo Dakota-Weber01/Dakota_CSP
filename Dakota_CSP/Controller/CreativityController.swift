@@ -41,7 +41,7 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
             }
             collectionView?.performBatchUpdates(
             {
-                self.collectionView?.reloaditems(at: indexPaths)
+                self.collectionView?.reloaditems(at: IndexPath)
             })
             {
                 completed in

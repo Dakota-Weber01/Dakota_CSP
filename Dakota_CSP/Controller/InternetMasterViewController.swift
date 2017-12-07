@@ -96,6 +96,7 @@ public class InternetMasterViewController: UIViewController
                 controller.detailText = pageText
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItems.SupplementBackButton = true
+                
             }
         }
     }

@@ -12,6 +12,7 @@
 		4B30B2561FC3606B00533C01 /* Borker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30B2551FC3606B00533C01 /* Borker.swift */; };
 		4B89E5F71FCF39A00006CC6A /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89E5F61FCF39A00006CC6A /* InternetDetailViewController.swift */; };
 		4B89E5FA1FCF3B9F0006CC6A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B89E5F91FCF3B9F0006CC6A /* WebKit.framework */; };
+		4BD0FAE21FD9D369001D4D7E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD0FAE11FD9D369001D4D7E /* ArtCell.swift */; };
 		4BFACFF31FA256E40012358E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFACFF21FA256E40012358E /* ViewController.swift */; };
 		4BFACFF61FA256E40012358E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFACFF41FA256E40012358E /* Main.storyboard */; };
 		4BFACFF81FA256E40012358E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFACFF71FA256E40012358E /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		4B89E5F61FCF39A00006CC6A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		4B89E5F91FCF3B9F0006CC6A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		4BD0FAE01FD9C6BB001D4D7E /* tiny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiny.png; path = ../../../../../Desktop/tiny.png; sourceTree = "<group>"; };
+		4BD0FAE11FD9D369001D4D7E /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		4BFACFED1FA256E40012358E /* Dakota_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dakota_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFACFF21FA256E40012358E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BFACFF51FA256E40012358E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = ../Controller/AlgorithmsController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				4BFAD0261FA25D6A0012358E /* InternetMasterViewController.swift */,
 				4BFAD0281FA25D7B0012358E /* GlobalController.swift */,
 				4B89E5F61FCF39A00006CC6A /* InternetDetailViewController.swift */,
+				4BD0FAE11FD9D369001D4D7E /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BFAD0271FA25D6A0012358E /* InternetMasterViewController.swift in Sources */,
+				4BD0FAE21FD9D369001D4D7E /* ArtCell.swift in Sources */,
 				4B30B2561FC3606B00533C01 /* Borker.swift in Sources */,
 				4BFAD0291FA25D7B0012358E /* GlobalController.swift in Sources */,
 				4BFAD0211FA25D340012358E /* DataController.swift in Sources */,

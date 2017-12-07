@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AbstractionController: UIViewController, UIPageViewController, UIPageViewControllerDataSource
+public class AbstractionController : UIViewController, UIPageViewController, UIPageViewControllerDataSource
 {
     //MARK: Array of subviews
     private (set) lazy var orderedAbstractionViews : [UIViewController] =
@@ -40,7 +40,7 @@ public class AbstractionController: UIViewController, UIPageViewController, UIPa
         }
     }
     //MARK:- Support for dots i the UIPageViewController
-    public func pageViewController(  pageViewController: UIPageViewController, viewControllerBeforeviewController: UIViewController) -> UIViewController?
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBeforeviewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
         else
