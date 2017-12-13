@@ -21,7 +21,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
             splitViewController.viewControllers[splitViewController.viewControllers.count - 1] as! UINavigationController
             
             navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
-            splitViewController.delegate = self
+            splitViewControllerdDelegate = self
         }
 return true
 }
@@ -49,7 +49,7 @@ func applicationWillTerminate(_ application: UIApplication)
         guard let topAsDetailController = secondaryAsNavController.topViewController as? InternetDetailViewController else {return false}
         if topAsDetailController.detailAddress == nil
         {
-            // Return true to indicateat we have handled the collapse by doing nothing; the secondary controller will be discarded.
+            // Return true to indicate we have handled the collapse by doing nothing; the secondary controller will be discarded.
             return true
         }
         return false

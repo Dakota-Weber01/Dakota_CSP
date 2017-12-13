@@ -12,12 +12,27 @@
 		4B30B2561FC3606B00533C01 /* Borker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30B2551FC3606B00533C01 /* Borker.swift */; };
 		4B89E5F71FCF39A00006CC6A /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89E5F61FCF39A00006CC6A /* InternetDetailViewController.swift */; };
 		4B89E5FA1FCF3B9F0006CC6A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B89E5F91FCF3B9F0006CC6A /* WebKit.framework */; };
+		4BC7DDE21FE1AB24003FBCB2 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDDF1FE1AB24003FBCB2 /* LevelCompleteScene.swift */; };
+		4BC7DDE31FE1AB24003FBCB2 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDE01FE1AB24003FBCB2 /* StartScene.swift */; };
+		4BC7DDE41FE1AB24003FBCB2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDE11FE1AB24003FBCB2 /* GameScene.swift */; };
+		4BC7DDEC1FE1ADB7003FBCB2 /* laser sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC7DDE61FE1ADB6003FBCB2 /* laser sound.mp3 */; };
+		4BC7DDED1FE1ADB7003FBCB2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BC7DDE71FE1ADB6003FBCB2 /* Default-568h@2x.png */; };
+		4BC7DDEE1FE1ADB7003FBCB2 /* invader sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC7DDE81FE1ADB6003FBCB2 /* invader sound.mp3 */; };
+		4BC7DDEF1FE1ADB7003FBCB2 /* boss sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC7DDE91FE1ADB6003FBCB2 /* boss sound.mp3 */; };
+		4BC7DDF01FE1ADB7003FBCB2 /* powerup sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC7DDEA1FE1ADB6003FBCB2 /* powerup sound.mp3 */; };
+		4BC7DDF11FE1ADB7003FBCB2 /* extra sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC7DDEB1FE1ADB6003FBCB2 /* extra sound.mp3 */; };
+		4BC7DDF51FE1AE90003FBCB2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDF41FE1AE90003FBCB2 /* Utilities.swift */; };
+		4BC7DDF71FE1AF52003FBCB2 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4BC7DDF61FE1AF52003FBCB2 /* StarField.sks */; };
+		4BC7DDFD1FE1AFDF003FBCB2 /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDF81FE1AFDF003FBCB2 /* InvaderLaser.swift */; };
+		4BC7DDFE1FE1AFDF003FBCB2 /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDF91FE1AFDF003FBCB2 /* PlayerLaser.swift */; };
+		4BC7DDFF1FE1AFDF003FBCB2 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDFA1FE1AFDF003FBCB2 /* Projectile.swift */; };
+		4BC7DE001FE1AFDF003FBCB2 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDFB1FE1AFDF003FBCB2 /* Invader.swift */; };
+		4BC7DE011FE1AFDF003FBCB2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDFC1FE1AFDF003FBCB2 /* Player.swift */; };
 		4BD0FAE21FD9D369001D4D7E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD0FAE11FD9D369001D4D7E /* ArtCell.swift */; };
 		4BFACFF31FA256E40012358E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFACFF21FA256E40012358E /* ViewController.swift */; };
 		4BFACFF61FA256E40012358E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFACFF41FA256E40012358E /* Main.storyboard */; };
 		4BFACFF81FA256E40012358E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFACFF71FA256E40012358E /* Assets.xcassets */; };
 		4BFACFFB1FA256E40012358E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFACFF91FA256E40012358E /* LaunchScreen.storyboard */; };
-		4BFAD0091FA258640012358E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFAD0081FA258640012358E /* Default-568h@2x.png */; };
 		4BFAD0191FA25BB30012358E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0181FA25BB30012358E /* AppDelegate.swift */; };
 		4BFAD01D1FA25D050012358E /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD01C1FA25D050012358E /* AbstractionController.swift */; };
 		4BFAD01F1FA25D1D0012358E /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD01E1FA25D1D0012358E /* CreativityController.swift */; };
@@ -34,7 +49,22 @@
 		4B30B2551FC3606B00533C01 /* Borker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borker.swift; sourceTree = "<group>"; };
 		4B89E5F61FCF39A00006CC6A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		4B89E5F91FCF3B9F0006CC6A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		4BD0FAE01FD9C6BB001D4D7E /* tiny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiny.png; path = ../../../../../Desktop/tiny.png; sourceTree = "<group>"; };
+		4BC7DDDF1FE1AB24003FBCB2 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		4BC7DDE01FE1AB24003FBCB2 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		4BC7DDE11FE1AB24003FBCB2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4BC7DDE61FE1ADB6003FBCB2 /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser sound.mp3"; sourceTree = "<group>"; };
+		4BC7DDE71FE1ADB6003FBCB2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4BC7DDE81FE1ADB6003FBCB2 /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "invader sound.mp3"; sourceTree = "<group>"; };
+		4BC7DDE91FE1ADB6003FBCB2 /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boss sound.mp3"; sourceTree = "<group>"; };
+		4BC7DDEA1FE1ADB6003FBCB2 /* powerup sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "powerup sound.mp3"; sourceTree = "<group>"; };
+		4BC7DDEB1FE1ADB6003FBCB2 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
+		4BC7DDF41FE1AE90003FBCB2 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4BC7DDF61FE1AF52003FBCB2 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		4BC7DDF81FE1AFDF003FBCB2 /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
+		4BC7DDF91FE1AFDF003FBCB2 /* PlayerLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
+		4BC7DDFA1FE1AFDF003FBCB2 /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		4BC7DDFB1FE1AFDF003FBCB2 /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		4BC7DDFC1FE1AFDF003FBCB2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		4BD0FAE11FD9D369001D4D7E /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		4BFACFED1FA256E40012358E /* Dakota_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dakota_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFACFF21FA256E40012358E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +72,6 @@
 		4BFACFF71FA256E40012358E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BFACFFA1FA256E40012358E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BFACFFC1FA256E40012358E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BFAD0081FA258640012358E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
 		4BFAD0181FA25BB30012358E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BFAD01C1FA25D050012358E /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
 		4BFAD01E1FA25D1D0012358E /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityController.swift; sourceTree = "<group>"; };
@@ -71,6 +100,28 @@
 				4B89E5F91FCF3B9F0006CC6A /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BC7DDE51FE1AC90003FBCB2 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				4BC7DDE11FE1AB24003FBCB2 /* GameScene.swift */,
+				4BC7DDDF1FE1AB24003FBCB2 /* LevelCompleteScene.swift */,
+				4BC7DDE01FE1AB24003FBCB2 /* StartScene.swift */,
+			);
+			path = GameController;
+			sourceTree = "<group>";
+		};
+		4BC7DDF31FE1ADFB003FBCB2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4BC7DDE91FE1ADB6003FBCB2 /* boss sound.mp3 */,
+				4BC7DDEB1FE1ADB6003FBCB2 /* extra sound.mp3 */,
+				4BC7DDE81FE1ADB6003FBCB2 /* invader sound.mp3 */,
+				4BC7DDE61FE1ADB6003FBCB2 /* laser sound.mp3 */,
+				4BC7DDEA1FE1ADB6003FBCB2 /* powerup sound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		4BFACFE41FA256E40012358E = {
@@ -104,6 +155,7 @@
 		4BFAD0021FA256F70012358E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4BC7DDE51FE1AC90003FBCB2 /* GameController */,
 				4BFACFF21FA256E40012358E /* ViewController.swift */,
 				4BFAD0181FA25BB30012358E /* AppDelegate.swift */,
 				4BFAD01E1FA25D1D0012358E /* CreativityController.swift */,
@@ -122,6 +174,7 @@
 		4BFAD0031FA2570A0012358E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4BC7DDF61FE1AF52003FBCB2 /* StarField.sks */,
 				4BFACFF91FA256E40012358E /* LaunchScreen.storyboard */,
 				4BFACFF41FA256E40012358E /* Main.storyboard */,
 				4B1473001FD72A3B007F682B /* DrawingView.swift */,
@@ -132,6 +185,11 @@
 		4BFAD0041FA257100012358E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4BC7DDFB1FE1AFDF003FBCB2 /* Invader.swift */,
+				4BC7DDF81FE1AFDF003FBCB2 /* InvaderLaser.swift */,
+				4BC7DDFC1FE1AFDF003FBCB2 /* Player.swift */,
+				4BC7DDF91FE1AFDF003FBCB2 /* PlayerLaser.swift */,
+				4BC7DDFA1FE1AFDF003FBCB2 /* Projectile.swift */,
 				4B30B2531FC35FEA00533C01 /* Yeetable.swift */,
 				4B30B2551FC3606B00533C01 /* Borker.swift */,
 			);
@@ -141,10 +199,11 @@
 		4BFAD0051FA2571B0012358E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4BFAD0081FA258640012358E /* Default-568h@2x.png */,
-				4BD0FAE01FD9C6BB001D4D7E /* tiny.png */,
+				4BC7DDF31FE1ADFB003FBCB2 /* Sounds */,
 				4BFACFFC1FA256E40012358E /* Info.plist */,
+				4BC7DDF41FE1AE90003FBCB2 /* Utilities.swift */,
 				4BFACFF71FA256E40012358E /* Assets.xcassets */,
+				4BC7DDE71FE1ADB6003FBCB2 /* Default-568h@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -208,10 +267,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC7DDF11FE1ADB7003FBCB2 /* extra sound.mp3 in Resources */,
+				4BC7DDEC1FE1ADB7003FBCB2 /* laser sound.mp3 in Resources */,
+				4BC7DDF71FE1AF52003FBCB2 /* StarField.sks in Resources */,
+				4BC7DDF01FE1ADB7003FBCB2 /* powerup sound.mp3 in Resources */,
 				4BFACFFB1FA256E40012358E /* LaunchScreen.storyboard in Resources */,
-				4BFAD0091FA258640012358E /* Default-568h@2x.png in Resources */,
 				4BFACFF81FA256E40012358E /* Assets.xcassets in Resources */,
+				4BC7DDEF1FE1ADB7003FBCB2 /* boss sound.mp3 in Resources */,
 				4BFACFF61FA256E40012358E /* Main.storyboard in Resources */,
+				4BC7DDED1FE1ADB7003FBCB2 /* Default-568h@2x.png in Resources */,
+				4BC7DDEE1FE1ADB7003FBCB2 /* invader sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,17 +288,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BFAD0271FA25D6A0012358E /* InternetMasterViewController.swift in Sources */,
+				4BC7DDE21FE1AB24003FBCB2 /* LevelCompleteScene.swift in Sources */,
 				4BD0FAE21FD9D369001D4D7E /* ArtCell.swift in Sources */,
+				4BC7DE001FE1AFDF003FBCB2 /* Invader.swift in Sources */,
+				4BC7DE011FE1AFDF003FBCB2 /* Player.swift in Sources */,
 				4B30B2561FC3606B00533C01 /* Borker.swift in Sources */,
 				4BFAD0291FA25D7B0012358E /* GlobalController.swift in Sources */,
 				4BFAD0211FA25D340012358E /* DataController.swift in Sources */,
+				4BC7DDF51FE1AE90003FBCB2 /* Utilities.swift in Sources */,
 				4B89E5F71FCF39A00006CC6A /* InternetDetailViewController.swift in Sources */,
+				4BC7DDFE1FE1AFDF003FBCB2 /* PlayerLaser.swift in Sources */,
+				4BC7DDE31FE1AB24003FBCB2 /* StartScene.swift in Sources */,
+				4BC7DDFD1FE1AFDF003FBCB2 /* InvaderLaser.swift in Sources */,
 				4B1473011FD72A3B007F682B /* DrawingView.swift in Sources */,
 				4BFAD0251FA25D5A0012358E /* ProgrammingController.swift in Sources */,
 				4B30B2541FC35FEA00533C01 /* Yeetable.swift in Sources */,
+				4BC7DDE41FE1AB24003FBCB2 /* GameScene.swift in Sources */,
 				4BFAD0231FA25D480012358E /* AlgorithmsController.swift in Sources */,
 				4BFAD01D1FA25D050012358E /* AbstractionController.swift in Sources */,
 				4BFAD01F1FA25D1D0012358E /* CreativityController.swift in Sources */,
+				4BC7DDFF1FE1AFDF003FBCB2 /* Projectile.swift in Sources */,
 				4BFAD0191FA25BB30012358E /* AppDelegate.swift in Sources */,
 				4BFACFF31FA256E40012358E /* ViewController.swift in Sources */,
 			);

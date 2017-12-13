@@ -42,7 +42,7 @@ public class AbstractionController : UIViewController, UIPageViewController, UIP
     //MARK:- Support for dots i the UIPageViewController
     public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBeforeviewController: UIViewController) -> UIViewController?
     {
-        guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
+        guard let viewControllerIndex = orderedAbstractionViews.index(of: [firstViewController])
         else
     {
         return nil
