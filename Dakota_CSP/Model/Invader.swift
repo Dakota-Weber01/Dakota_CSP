@@ -26,7 +26,7 @@ public class Invader: SKSpriteNode
         self.physicsBody?.isDynamic = true
         self.physicsBody?.usesPreciseCollisionDetection = false
         self.physicsBody?.categoryBitMask = CollisionCategories.Invader
-        self.physicsBody?.contactTestBitMask = CollisionCategories.PlayerBullet | CollisionCategories.Player
+        self.physicsBody?.contactTestBitMask = CollisionCategories.PlayerLaser | CollisionCategories.Player
         self.physicsBody?.collisionBitMask = CollisionCategories.EdgeBody
     }
     // Required init must be provided by subclass
