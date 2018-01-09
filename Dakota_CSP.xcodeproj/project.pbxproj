@@ -10,6 +10,9 @@
 		4B1473011FD72A3B007F682B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1473001FD72A3B007F682B /* DrawingView.swift */; };
 		4B30B2541FC35FEA00533C01 /* Yeetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30B2531FC35FEA00533C01 /* Yeetable.swift */; };
 		4B30B2561FC3606B00533C01 /* Borker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30B2551FC3606B00533C01 /* Borker.swift */; };
+		4B73CFD4200544620052A38C /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73CFD3200544620052A38C /* BucketItemCell.swift */; };
+		4B73CFD62005451A0052A38C /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73CFD52005451A0052A38C /* BucketItem.swift */; };
+		4B73CFD92005464E0052A38C /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4B73CFD82005464E0052A38C /* bucket.csv */; };
 		4B89E5F71FCF39A00006CC6A /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89E5F61FCF39A00006CC6A /* InternetDetailViewController.swift */; };
 		4B89E5FA1FCF3B9F0006CC6A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B89E5F91FCF3B9F0006CC6A /* WebKit.framework */; };
 		4BC7DDE21FE1AB24003FBCB2 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7DDDF1FE1AB24003FBCB2 /* LevelCompleteScene.swift */; };
@@ -37,7 +40,7 @@
 		4BFAD0191FA25BB30012358E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0181FA25BB30012358E /* AppDelegate.swift */; };
 		4BFAD01D1FA25D050012358E /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD01C1FA25D050012358E /* AbstractionController.swift */; };
 		4BFAD01F1FA25D1D0012358E /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD01E1FA25D1D0012358E /* CreativityController.swift */; };
-		4BFAD0211FA25D340012358E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0201FA25D340012358E /* DataController.swift */; };
+		4BFAD0211FA25D340012358E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0201FA25D340012358E /* DataViewController.swift */; };
 		4BFAD0231FA25D480012358E /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0221FA25D480012358E /* AlgorithmsController.swift */; };
 		4BFAD0251FA25D5A0012358E /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0241FA25D5A0012358E /* ProgrammingController.swift */; };
 		4BFAD0271FA25D6A0012358E /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD0261FA25D6A0012358E /* InternetMasterViewController.swift */; };
@@ -48,6 +51,9 @@
 		4B1473001FD72A3B007F682B /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		4B30B2531FC35FEA00533C01 /* Yeetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yeetable.swift; sourceTree = "<group>"; };
 		4B30B2551FC3606B00533C01 /* Borker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borker.swift; sourceTree = "<group>"; };
+		4B73CFD3200544620052A38C /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		4B73CFD52005451A0052A38C /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		4B73CFD82005464E0052A38C /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Desktop/dall/bucket.csv; sourceTree = "<group>"; };
 		4B89E5F61FCF39A00006CC6A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		4B89E5F91FCF3B9F0006CC6A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		4BC7DDDF1FE1AB24003FBCB2 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
@@ -77,7 +83,7 @@
 		4BFAD0181FA25BB30012358E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BFAD01C1FA25D050012358E /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
 		4BFAD01E1FA25D1D0012358E /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityController.swift; sourceTree = "<group>"; };
-		4BFAD0201FA25D340012358E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		4BFAD0201FA25D340012358E /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		4BFAD0221FA25D480012358E /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
 		4BFAD0241FA25D5A0012358E /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
 		4BFAD0261FA25D6A0012358E /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B73CFD7200545E60052A38C /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				4BFAD0201FA25D340012358E /* DataViewController.swift */,
+				4B73CFD3200544620052A38C /* BucketItemCell.swift */,
+			);
+			path = DataView;
+			sourceTree = "<group>";
+		};
 		4B89E5F81FCF3B9F0006CC6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,12 +173,12 @@
 		4BFAD0021FA256F70012358E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4B73CFD7200545E60052A38C /* DataView */,
 				4BC7DDE51FE1AC90003FBCB2 /* GameController */,
 				4BFACFF21FA256E40012358E /* ViewController.swift */,
 				4BFAD0181FA25BB30012358E /* AppDelegate.swift */,
 				4BFAD01E1FA25D1D0012358E /* CreativityController.swift */,
 				4BFAD01C1FA25D050012358E /* AbstractionController.swift */,
-				4BFAD0201FA25D340012358E /* DataController.swift */,
 				4BFAD0221FA25D480012358E /* AlgorithmsController.swift */,
 				4BFAD0241FA25D5A0012358E /* ProgrammingController.swift */,
 				4BFAD0261FA25D6A0012358E /* InternetMasterViewController.swift */,
@@ -195,6 +210,7 @@
 				4BC7DDFA1FE1AFDF003FBCB2 /* Projectile.swift */,
 				4B30B2531FC35FEA00533C01 /* Yeetable.swift */,
 				4B30B2551FC3606B00533C01 /* Borker.swift */,
+				4B73CFD52005451A0052A38C /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +218,7 @@
 		4BFAD0051FA2571B0012358E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B73CFD82005464E0052A38C /* bucket.csv */,
 				4BC7DDF31FE1ADFB003FBCB2 /* Sounds */,
 				4BFACFFC1FA256E40012358E /* Info.plist */,
 				4BC7DDF41FE1AE90003FBCB2 /* Utilities.swift */,
@@ -275,6 +292,7 @@
 				4BC7DDF71FE1AF52003FBCB2 /* StarField.sks in Resources */,
 				4BC7DDF01FE1ADB7003FBCB2 /* powerup sound.mp3 in Resources */,
 				4BFACFFB1FA256E40012358E /* LaunchScreen.storyboard in Resources */,
+				4B73CFD92005464E0052A38C /* bucket.csv in Resources */,
 				4BFACFF81FA256E40012358E /* Assets.xcassets in Resources */,
 				4BC7DDEF1FE1ADB7003FBCB2 /* boss sound.mp3 in Resources */,
 				4BFACFF61FA256E40012358E /* Main.storyboard in Resources */,
@@ -294,10 +312,12 @@
 				4BC7DDE21FE1AB24003FBCB2 /* LevelCompleteScene.swift in Sources */,
 				4BD0FAE21FD9D369001D4D7E /* ArtCell.swift in Sources */,
 				4BC7DE001FE1AFDF003FBCB2 /* Invader.swift in Sources */,
+				4B73CFD62005451A0052A38C /* BucketItem.swift in Sources */,
 				4BC7DE011FE1AFDF003FBCB2 /* Player.swift in Sources */,
 				4B30B2561FC3606B00533C01 /* Borker.swift in Sources */,
+				4B73CFD4200544620052A38C /* BucketItemCell.swift in Sources */,
 				4BFAD0291FA25D7B0012358E /* GlobalController.swift in Sources */,
-				4BFAD0211FA25D340012358E /* DataController.swift in Sources */,
+				4BFAD0211FA25D340012358E /* DataViewController.swift in Sources */,
 				4BC7DDF51FE1AE90003FBCB2 /* Utilities.swift in Sources */,
 				4B89E5F71FCF39A00006CC6A /* InternetDetailViewController.swift in Sources */,
 				4BC7DDFE1FE1AFDF003FBCB2 /* PlayerLaser.swift in Sources */,

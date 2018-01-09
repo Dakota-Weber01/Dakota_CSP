@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AbstractionController : UIViewController, UIPageViewController, UIPageViewControllerDataSource
+public class AbstractionController : UIPageViewController, UIPageViewControllerDataSource
 {
     //MARK: Array of subviews
     private (set) lazy var orderedAbstractionViews : [UIViewController] =

@@ -8,20 +8,20 @@
 
 import UIKit
 
-class AlgorithmsController: UIViewController
+public class AlgorithmsController: UIViewController
 {
-    override func viewDidLoad()
+    override public func viewDidLoad()
     {
         super.viewDidLoad()
     }
-    override func didReceiveMemoryWarning()
+    override public func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
     }
     private func setupAlgorithm() -> Void
     {
         // TODO: Define algorithm and all steps
-        algorithmSteps = [ stepOne, stepTwo, stepThree]
+        algorithmSteps = [stepOne, stepTwo, stepThree]
         let attributesDictionary = [NSAttibutedStringKey.font : algorithmText.font]
         let fullAttributedString = NSMutableAttributedString(string: alrithm, attributes: attributesDictionary)
         for step in algorithmSteps
@@ -29,7 +29,7 @@ class AlgorithmsController: UIViewController
             let bullet : String = "*"
             let formattedStep : String = "\n\(bullet) \(step)"
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(String: formattedStep)
-            attribedStringStep.addAttriutes([NSMutableAttributedStringKey.paragraphStyle] range : NSMakeRange(0,attributedStringStep.length))
+            attribedStringStep.addAttriutes([NSMutableAttributedStringKey.paragraphStyle] range: NSMakeRange(0,attributedStringStep.length))
             
             fullAttributedString.append(AttributedStringStep)
         }

@@ -21,7 +21,8 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
             splitViewController.viewControllers[splitViewController.viewControllers.count - 1] as! UINavigationController
             
             navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
-            splitViewControllerdDelegate = self
+            
+            splitViewControllerDelegate = self
         }
 return true
 }

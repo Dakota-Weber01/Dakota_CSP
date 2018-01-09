@@ -11,7 +11,6 @@ import SpriteKit
 
 public class Projectile: SKSpriteNode
 {
-
     init(imageName: String, bulletSound: String?)
     {
         let texture = SKTexture(imageNamed: imageName)
@@ -20,10 +19,7 @@ public class Projectile: SKSpriteNode
         {
             run(SKAction.playSoundFileNamed(bulletSound!, waitForCompletion: false))
         }
-        
     }
-    
-    
     required public init?(coder aDecoder: NSCoder)
     {
         super.init(coder: aDecoder)
